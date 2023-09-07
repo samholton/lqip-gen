@@ -1,0 +1,30 @@
+{
+  "name": "lqip-gen",
+  "version": "1.0.0",
+  "description": "NodeJS CLI utility to generate LQIP base64 data from an image file",
+  "main": "bin/index.js",
+  "bin": {
+    "lqip-gen": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "lqip-gen test.jpg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samholton/lqip-gen.git"
+  },
+  "keywords": [
+    "lqip"
+  ],
+  "author": "Sam Holton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samholton/lqip-gen/issues"
+  },
+  "homepage": "https://github.com/samholton/lqip-gen#readme",
+  "dependencies": {
+    "copy-paste": "^1.5.3",
+    "lqip-modern": "^2.0.0",
+    "yargs": "^17.7.2"
+  }
+}
