@@ -24,7 +24,7 @@
   "homepage": "https://github.com/samholton/lqip-gen#readme",
   "dependencies": {
     "copy-paste": "^1.5.3",
-    "lqip-modern": "^2.0.0",
+    "lqip-modern": "^3.0.0",
     "yargs": "^17.7.2"
   }
 }
